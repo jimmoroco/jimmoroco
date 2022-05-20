@@ -1,0 +1,11 @@
+var configuration = "";
+configuration += '{"level":'
+configuration += '['
+configuration += '{"value":"1","size":50,"velocity": 50,"lifeEnemy":5,"step":6, "damage":1},'
+configuration += '{"value":"2","size":30,"velocity": 40,"lifeEnemy":5,"step":6, "damage":1},'
+configuration += '{"value":"3","size":20,"velocity": 30,"lifeEnemy":5,"step":6, "damage":2},'
+configuration += '{"value":"3","size":10,"velocity": 20,"lifeEnemy":300,"step":6, "damage":2},'
+configuration += '{"value":"3","size":10,"velocity": 10,"lifeEnemy":300,"step":6, "damage":2},'
+configuration += '{"value":"3","size":10,"velocity":  5,"lifeEnemy":300,"step":6, "damage":2}'
+configuration += ']'
+configuration += '}';

@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css.css" rel="stylesheet" />
+    <title>Document</title>
 </head>
+
 <body>
-    <h1>Hola Jim Moroco!</h1>
-    
+
+    <div id="divHeader">
+        <div id="divTitulo" class="title center">
+            <h1>JUEGO</h2>
+        </div>
+    </div>
+    <div id="divContainer" class="container">
+        <div id="divCanvas" class="child relative">
+            <div id="divEnemy" class="relative"></div>
+        </div>
+        <div id="divInformation" class="child relative center">
+            <span id="spnInformation"></span>
+        </div>
+    </div>
+    <div id="divConfiguration">
+        <label for="txtVelocity">Nivel:</label>
+        <!-- <input type="text" id="nLevel"> -->
+        <input type="number" id="nLevel" min="1" max="10" value="1" />
+        <input type="button" id="btnStart" value="Iniciar" />
+        <input type="button" id="btnAnimation" value="Iniciar animación" />
+    </div>
+
+    <div class="hidden animation" id="divAnimation"></div>
+
+    <script type="text/javascript" src="configuration.js"></script>
+    <script type="text/javascript" src="js.js"></script>
 </body>
+
 </html>
