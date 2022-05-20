@@ -233,6 +233,7 @@ function createLeftFoot() {
 function initializeGame() {
    let result = false;
    if (getConfigurationLevel()) {
+      clearInterval(flagInterval);
       divCanvasHeight = divCanvas.getBoundingClientRect().height;
       divCanvasWidth = divCanvas.getBoundingClientRect().width;
       lifeEnemy = 0;
